@@ -11,7 +11,11 @@
 - Me
 - Myself
 - I
-- Michael Felipe dos Santos
+- Michael Felipe dos Santos (mfs6)
+
+👑 _Monitor:_
+
+- Vinícius de Sousa Rodrigues (vsr)
 
 ## 💵 Objetivo do projeto
 
