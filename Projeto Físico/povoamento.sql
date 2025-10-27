@@ -1,19 +1,19 @@
 -- Super-entidade
 INSERT INTO PESSOA(NOME, DT_NASC, GENERO, END_CIDADE, END_BAIRRO) VALUES
-    ('Claude Speed','2001-10-22','M', 'Liberty City', 'Red Light District'),
-    ('Catalina', '2001-10-22', 'F', 'Liberty City','Callahan Point'),
-    ('Donald Love', '2001-10-22', 'M', 'Liberty City','Portland View'),
-    ('Asuka Kasen', '2001-10-22', 'F', 'Liberty City','Portland Beach'),
-    ('Kenji Kasen', '2001-10-22', 'M', 'Liberty City', 'Portland Beach'),
-    ('Maria Latore', '2001-10-22', 'F', 'Liberty City','Portland Beach'),
-    ('Misty', '2001-10-22', 'F', 'Liberty City','Red Light District'),
-    ('Salvatore Leone', '2001-10-22', 'M', 'Liberty City','Saint Marks'),
-    ('Toni Cipriani', '2001-10-22', 'M', 'Liberty City','Saint Marks'),
-    ('Lee Chong', '2001-10-22', 'M', 'Liberty City','Chinatown'),
-    ('Cisco', '2001-10-22', 'M', 'Liberty City','Trenton'),
-    ('Miguel', '2001-10-22', 'M', 'Liberty City','Trenton'),
-    ('Luigi Goterelli', '2001-10-22', 'M', 'Liberty City', 'Red Light District'),
-    ('Joey', '2001-10-22', 'M', 'Liberty City', 'Hepburn Heights');
+    ('Claude Speed','2001-10-22','Masculino', 'Liberty City', 'Red Light District'),
+    ('Catalina', '2001-10-22', 'Feminino', 'Liberty City','Callahan Point'),
+    ('Donald Love', '2001-10-22', 'Masculino', 'Liberty City','Portland View'),
+    ('Asuka Kasen', '2001-10-22', 'Feminino', 'Liberty City','Portland Beach'),
+    ('Kenji Kasen', '2001-10-22', 'Masculino', 'Liberty City', 'Portland Beach'),
+    ('Maria Latore', '2001-10-22', 'Feminino', 'Liberty City','Portland Beach'),
+    ('Misty', '2001-10-22', 'Feminino', 'Liberty City','Red Light District'),
+    ('Salvatore Leone', '2001-10-22', 'Masculino', 'Liberty City','Saint Marks'),
+    ('Toni Cipriani', '2001-10-22', 'Masculino', 'Liberty City','Saint Marks'),
+    ('Lee Chong', '2001-10-22', 'Masculino', 'Liberty City','Chinatown'),
+    ('Cisco', '2001-10-22', 'Masculino', 'Liberty City','Trenton'),
+    ('Miguel', '2001-10-22', 'Masculino', 'Liberty City','Trenton'),
+    ('Luigi Goterelli', '2001-10-22', 'Masculino', 'Liberty City', 'Red Light District'),
+    ('Joey', '2001-10-22', 'Masculino', 'Liberty City', 'Hepburn Heights');
 
 -- Sub-entidades
 INSERT INTO PROTAGONISTA(NOME) VALUES
@@ -78,11 +78,11 @@ INSERT INTO MUSICA(NOME, GENERO1, GENERO2) VALUES
     ('La Donna E Mobile', 'CLASSICA', 'OPERA'),
     
     -- Flashback FM (III)
-    ('Rush Rush', 'POP'),
-    ('Shake It Up', 'POP'),
-    ('Push It To The Limit', 'POP'),
-    ('She is On Fire', 'POP'),
-    ('I am Hot Tonight', 'POP'),
+    ('Rush Rush', 'POP', NULL),
+    ('Shake It Up', 'POP', NULL),
+    ('Push It To The Limit', 'POP', NULL),
+    ('She is On Fire', 'POP', NULL),
+    ('I am Hot Tonight', 'POP', NULL),
     
     -- Game Radio FM (III)
     ('Scary Movies', 'RAP', 'HIP-HOP'),
@@ -99,10 +99,10 @@ INSERT INTO ROTINA(DESCRICAO,NOME_NPC) VALUES
     -- ('Comprar café na lanchonete local'),
     ('Patrulhar as ruas em horário fixo', 'Miguel'),
     ('Ficar conversando na esquina', 'Misty'),
-    ('Fazer compras no mercado da vizinhança', 'Misty'),
-    ('Treinar na academia da cidade', 'Cisco'),
+    --('Fazer compras no mercado da vizinhança', 'Misty'),
+    --('Treinar na academia da cidade', 'Cisco'),
     -- ('Esperar o ônibus no ponto central'),
-    ('Passear com o cachorro pelo parque', 'Misty'),
+    --('Passear com o cachorro pelo parque', 'Misty'),
     ('Trabalhar em uma barraca de comida de rua', 'Lee Chong');
     -- ('Voltar para casa e assistir TV à noite')
 -- ----------------------------------------------
