@@ -1,19 +1,19 @@
 -- Super-entidade
 INSERT INTO PESSOA(NOME, DT_NASC, GENERO, END_CIDADE, END_BAIRRO) VALUES
-    ('Claude Speed','2001-10-22','Masculino', 'Liberty City', 'Red Light District'),
-    ('Catalina', '2001-10-22', 'Feminino', 'Liberty City','Callahan Point'),
-    ('Donald Love', '2001-10-22', 'Masculino', 'Liberty City','Portland View'),
-    ('Asuka Kasen', '2001-10-22', 'Feminino', 'Liberty City','Portland Beach'),
-    ('Kenji Kasen', '2001-10-22', 'Masculino', 'Liberty City', 'Portland Beach'),
-    ('Maria Latore', '2001-10-22', 'Feminino', 'Liberty City','Portland Beach'),
-    ('Misty', '2001-10-22', 'Feminino', 'Liberty City','Red Light District'),
-    ('Salvatore Leone', '2001-10-22', 'Masculino', 'Liberty City','Saint Marks'),
-    ('Toni Cipriani', '2001-10-22', 'Masculino', 'Liberty City','Saint Marks'),
-    ('Lee Chong', '2001-10-22', 'Masculino', 'Liberty City','Chinatown'),
-    ('Cisco', '2001-10-22', 'Masculino', 'Liberty City','Trenton'),
-    ('Miguel', '2001-10-22', 'Masculino', 'Liberty City','Trenton'),
-    ('Luigi Goterelli', '2001-10-22', 'Masculino', 'Liberty City', 'Red Light District'),
-    ('Joey', '2001-10-22', 'Masculino', 'Liberty City', 'Hepburn Heights');
+    ('Claude Speed',TO_DATE('22-10-2001', 'DD/MM/YYYY'),'Masculino', 'Liberty City', 'Red Light District'),
+    ('Catalina', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Feminino', 'Liberty City','Callahan Point'),
+    ('Donald Love', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Portland View'),
+    ('Asuka Kasen', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Feminino', 'Liberty City','Portland Beach'),
+    ('Kenji Kasen', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City', 'Portland Beach'),
+    ('Maria Latore', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Feminino', 'Liberty City','Portland Beach'),
+    ('Misty', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Feminino', 'Liberty City','Red Light District'),
+    ('Salvatore Leone', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Saint Marks'),
+    ('Toni Cipriani', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Saint Marks'),
+    ('Lee Chong', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Chinatown'),
+    ('Cisco', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Trenton'),
+    ('Miguel', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City','Trenton'),
+    ('Luigi Goterelli', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City', 'Red Light District'),
+    ('Joey', TO_DATE('22-10-2001', 'DD/MM/YYYY'), 'Masculino', 'Liberty City', 'Hepburn Heights');
 
 -- Sub-entidades
 INSERT INTO PROTAGONISTA(NOME) VALUES
@@ -150,6 +150,6 @@ INSERT INTO DIRIGE(NOME_PROTAGONISTA, DESCRICAO, NOME_VEICULO) VALUES
 INSERT INTO TOCA(NOME_VEICULO, NOME_MUSICA, NOME_RADIO) VALUES
     ('Banshee', 'Non Piu Andrai Farfallone Amoroso', 'Double Clef FM'),
     ('Banshee', 'Chi Mi Frena In Tal Momento', 'Double Clef FM'),
-    ('Patriot', 'Shake It Up', 'K-JAH'),
-    ('Cheetah', 'Scary Movies' , 'Rise FM');
+    ('Patriot', 'Shake It Up', 'Flashback FM'),
+    ('Cheetah', 'Scary Movies' , 'Game Radio FM');
 -- ----------------------------------------------
