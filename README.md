@@ -8,14 +8,18 @@
 
 👮 _Equipe:_
 
-- Me
-- Myself
-- I
-- Michael Felipe dos Santos (mfs6)
+- ~~Me~~
+- ~~Myself~~
+- ~~I~~
+- **Michael Felipe dos Santos (mfs6)**
+- **Enzo Gurgel Bissoli (egb2)**
+- **Ykaro dos Santos Albuquerque (ysa)**
+- **Kaylanne Eduarda (kess)**
 
 👑 _Monitor:_
 
-- Vinícius de Sousa Rodrigues (vsr)
+- ~~Vinícius de Sousa Rodrigues (vsr)~~
+- **Victória Tauanny de Paula da Silva (vtps)**
 
 ## 💵 Objetivo do projeto
 
